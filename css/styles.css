@@ -1,7 +1,7 @@
 body {
   font-family: roboto;
   color: #212121;
-  background-color: ##f5f4fa;
+  background-color: #e5e5e5;
 }
 .logo {
   font-size: 26px;
@@ -39,14 +39,20 @@ body {
   background-color: #2196f3;
   border: none;
   border-radius: 4px;
-  width: 200px;
-  height: 50px;
+  /* width: 200px; */
+  /* height: 50px; */
   font-size: 16px;
   font-weight: 700;
+  padding: 10px 32px;
+  font-family: roboto;
 }
 .order-service:hover,
 .order-service:focus {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.order-service:active {
+  color: #212121;
+  background-color: #f5f4fa;
 }
 .hide {
   opacity: 0;
@@ -80,4 +86,31 @@ body {
 .adr-list:hover,
 .adr-list:focus {
   color: #2196f3;
+}
+.filter-btn button {
+  color: #212121;
+  padding: 6px 22px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #f5f4fa;
+  border: none;
+  border-radius: 4px;
+  font-family: roboto;
+}
+.btn:hover,
+.btn:focus {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+}
+.btn:active {
+  color: #ffffff;
+  background-color: #2196f3;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+}
+.list p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.list .poster-name {
+  font-size: 18px;
+  font-weight: 700;
 }

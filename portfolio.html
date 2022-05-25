@@ -17,45 +17,50 @@
     <header>
       <!--Навигация-->
       <nav>
-        <a href="./index.html" class="header-logo">WebStudio</a>
-        <ul>
+        <a class="logo" href="./index.html"
+          ><span class="logo-web">Web</span>Studio</a
+        >
+        <ul class="list">
           <li>
-            <a href="./index.html">Студия</a>
+            <a class="nav-link" href="./index.html">Студия</a>
           </li>
 
           <li>
-            <a href="./portfolio.html">Портфолио</a>
+            <a class="nav-link" href="./portfolio.html">Портфолио</a>
           </li>
           <li>
-            <a href="#contacts">Контакты</a>
+            <a class="nav-link" href="#contacts">Контакты</a>
           </li>
         </ul>
       </nav>
       <!--Контакты-->
-      <ul>
+      <ul class="list">
         <li>
-          <a href="mailto:info@devstudio.com:">info@devstudio.com</a>
+          <a class="nav-link color-g" href="mailto:info@devstudio.com:"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="nav-link color-g" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
-
     <!--Герой-->
     <main>
       <!--Кнопки фильтров-->
-      <div>
-        <button type="button">Все</button>
-        <button type="button">Веб-сайты</button>
-        <button type="button">Приложения</button>
-        <button type="button">Дизайн</button>
-        <button type="button">Маркетинг</button>
+      <div class="filter-btn">
+        <button class="btn" type="button">Все</button>
+        <button class="btn" type="button">Веб-сайты</button>
+        <button class="btn" type="button">Приложения</button>
+        <button class="btn" type="button">Дизайн</button>
+        <button class="btn" type="button">Маркетинг</button>
       </div>
       <!--Секция выполненных работ-->
       <section>
-        <h1>Примеры наших работ</h1>
-        <ul>
+        <h1 class="hide">Примеры наших работ</h1>
+        <ul class="list">
           <li>
             <img
               src="./images/technockrack.jpg"
@@ -63,7 +68,7 @@
               width="370"
               height="294"
             />
-            <p>Технокряк</p>
+            <p class="poster-name">Технокряк</p>
             <p>Веб-сайт</p>
           </li>
           <li>
@@ -73,17 +78,17 @@
               width="370"
               height="294"
             />
-            <p>Постер New Orlean vs Golden Star</p>
+            <p class="poster-name">Постер New Orlean vs Golden Star</p>
             <p>Дизайн</p>
           </li>
           <li>
             <img src="./images/seafood.jpg" alt="" width="370" height="294" />
-            <p>Ресторан Seafood</p>
+            <p class="poster-name">Ресторан Seafood</p>
             <p>Приложение</p>
           </li>
           <li>
             <img src="./images/prime.jpg" alt="" width="370" height="294" />
-            <p>Проект Prime</p>
+            <p class="poster-name">Проект Prime</p>
             <p>Маркетинг</p>
           </li>
           <li>
@@ -93,7 +98,7 @@
               width="370"
               height="294"
             />
-            <p>Проект Boxes</p>
+            <p class="poster-name">Проект Boxes</p>
             <p>Приложение</p>
           </li>
           <li>
@@ -103,7 +108,7 @@
               width="370"
               height="294"
             />
-            <p>Inspiration has no Borders</p>
+            <p class="poster-name">Inspiration has no Borders</p>
             <p>Веб-сайт</p>
           </li>
           <li>
@@ -113,7 +118,7 @@
               width="370"
               height="294"
             />
-            <p>Издание Limited Edition</p>
+            <p class="poster-name">Издание Limited Edition</p>
             <p>Дизайн</p>
           </li>
           <li>
@@ -123,7 +128,7 @@
               width="370"
               height="294"
             />
-            <p>Проект LAB</p>
+            <p class="poster-name">Проект LAB</p>
             <p>Маркетинг</p>
           </li>
           <li>
@@ -133,7 +138,7 @@
               width="370"
               height="294"
             />
-            <p>Growing Business</p>
+            <p class="poster-name">Growing Business</p>
             <p>Приложение</p>
           </li>
         </ul>
@@ -141,19 +146,27 @@
     </main>
     <!--Подвал-->
     <footer>
-      <a href="./index.html">WebStudio</a>
+      <a class="logo" href="./index.html"
+        ><span class="logo-web">Web</span>Studio</a
+      >
       <address>
-        <ul>
+        <ul class="list">
           <li>
-            <a id="contacts" href="https://goo.gl/maps/kGHBd9NLQaHWzJa29"
+            <a
+              class="adr-list"
+              id="contacts"
+              href="https://goo.gl/maps/kGHBd9NLQaHWzJa29"
+              target="_blank"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
           <li>
-            <a href="mailto:info@example.com">info@example.com</a>
+            <a class="adr-list" href="mailto:info@example.com"
+              >info@example.com</a
+            >
           </li>
           <li>
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <a class="adr-list" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
