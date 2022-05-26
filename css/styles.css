@@ -1,27 +1,34 @@
+:root {
+  --bgcolor: #e5e5e5;
+  --color-text: #212121;
+  --hover-focus: #2196f3;
+}
+
 body {
   font-family: roboto;
-  color: #212121;
-  background-color: #e5e5e5;
+  color: var(--color-text);
+  background-color: var(--bgcolor);
 }
 .logo {
   font-size: 26px;
   font-family: raleway;
   text-decoration: none;
-  color: #212121;
+  color: var(--color-text);
 }
 .logo-web {
   font-size: 26px;
   font-family: raleway;
-  color: #2196f3;
+  color: var(--hover-focus);
 }
 .nav-link {
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
+  line-height: 1.14;
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: var(--hover-focus);
 }
 .list {
   list-style: none;
@@ -33,10 +40,11 @@ body {
   font-size: 44px;
   font-weight: 900;
   text-transform: uppercase;
+  line-height: 1.36;
 }
 .order-service {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--hover-focus);
   border: none;
   border-radius: 4px;
   /* width: 200px; */
@@ -51,7 +59,7 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .order-service:active {
-  color: #212121;
+  color: var(--color-text);
   background-color: #f5f4fa;
 }
 .hide {
@@ -60,21 +68,26 @@ body {
 .hero-list {
   font-size: 14px;
   font-weight: 700;
+  line-height: 1.14;
 }
-.hero-tetx {
+.hero-text {
   font-size: 14px;
   font-weight: 400;
+  line-height: 1.71;
 }
 .head-style {
   font-size: 36px;
+  line-height: 1.16;
 }
 .team {
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.18;
 }
 .team-fs {
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.18;
 }
 .adr-list {
   color: rgba(255, 255, 255, 0.6);
@@ -82,10 +95,11 @@ body {
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
+  line-height: 1.71;
 }
 .adr-list:hover,
 .adr-list:focus {
-  color: #2196f3;
+  color: var(--hover-focus);
 }
 .filter-btn button {
   color: #212121;
@@ -103,10 +117,13 @@ body {
 }
 .btn:active {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--hover-focus);
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
 }
-.list p {
+.btn {
+  cursor: pointer;
+}
+.list > p {
   font-size: 16px;
   font-weight: 400;
 }
