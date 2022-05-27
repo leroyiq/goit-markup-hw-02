@@ -1,7 +1,9 @@
 :root {
-  --bgcolor: #e5e5e5;
+  --bgcolor: #fff;
   --color-text: #212121;
   --hover-focus: #2196f3;
+  --color-nav: #212121;
+  --header-footer: #2f303a;
 }
 
 body {
@@ -20,11 +22,15 @@ body {
   font-family: raleway;
   color: var(--hover-focus);
 }
+.logo-footer {
+  color: var(--bgcolor);
+}
 .nav-link {
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
   line-height: 1.14;
+  color: var(--color-nav);
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -36,11 +42,15 @@ body {
 .color-g {
   color: #757575;
 }
+.back-color {
+  background-color: var(--header-footer);
+}
 .hero {
   font-size: 44px;
   font-weight: 900;
   text-transform: uppercase;
   line-height: 1.36;
+  color: var(--bgcolor);
 }
 .order-service {
   color: #ffffff;
@@ -53,6 +63,8 @@ body {
   font-weight: 700;
   padding: 10px 32px;
   font-family: roboto;
+  cursor: pointer;
+  letter-spacing: 0.06em;
 }
 .order-service:hover,
 .order-service:focus {
@@ -69,6 +81,7 @@ body {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .hero-text {
   font-size: 14px;
@@ -95,7 +108,6 @@ body {
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.71;
 }
 .adr-list:hover,
 .adr-list:focus {
@@ -110,18 +122,20 @@ body {
   border: none;
   border-radius: 4px;
   font-family: roboto;
+  cursor: pointer;
+  line-height: 1.625;
+}
+.filter-btn {
+  list-style: none;
 }
 .btn:hover,
 .btn:focus {
+  color: var(--bgcolor);
+  background-color: var(--hover-focus);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 .btn:active {
-  color: #ffffff;
-  background-color: var(--hover-focus);
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
-}
-.btn {
-  cursor: pointer;
 }
 .list > p {
   font-size: 16px;
